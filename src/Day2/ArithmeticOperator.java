@@ -1,6 +1,6 @@
 package Day2Assignment;
 
-public class ArthmaticOperator {
+public class ArithmeticOperator {
     public static void main(String[] args) {
         int a = 10;
         int b = 20;
@@ -9,14 +9,8 @@ public class ArthmaticOperator {
         System.out.println("a*b=" + a * b);
         System.out.println("a/b=" + a / b);
         System.out.println("b%a=" + a % b);
-        int var10001 = a++;
-        System.out.println("a++ = " + var10001);
-        var10001 = a--;
-        System.out.println("b-- = " + var10001);
-        var10001 = a++;
-        System.out.println("d++ = " + var10001);
-        ++a;
-        System.out.println("++d = " + a);
+        System.out.println(Math.max(a, b));
+        System.out.println(Math.min(a,b));
     }
 }
 
