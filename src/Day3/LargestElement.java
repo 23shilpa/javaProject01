@@ -5,7 +5,7 @@ public class LargestElement {
 
 
         int [] arr = new int [] {25, 11, 7, 75, 56};
-        //Initialize max with first element of array.
+
         int max = arr[0];
 
         for (int i = 0; i < arr.length; i++) {

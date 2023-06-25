@@ -8,7 +8,7 @@ public class PalindromeNumber {
         System.out.print("Enter a number");
         int input = scanner.nextInt();
 
-        ReverseNumber reverseNumber = new ReverseNumber();
+        Day2Assignment.ReverseNumber reverseNumber = new Day2Assignment.ReverseNumber();
 
         int Num = reverseNumber.reverseNumber(input);
 

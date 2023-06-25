@@ -29,4 +29,5 @@ public class FindFrequency {
                 System.out.println("    " + arr[i] + "    |    " + fr[i]);
         }
         System.out.println("----------------------------------------");
-    }}
+    }
+}
